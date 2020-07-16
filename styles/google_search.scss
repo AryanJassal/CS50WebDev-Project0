@@ -23,7 +23,7 @@ form
 {
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 input[name=q]
@@ -39,8 +39,9 @@ input[name=q]
 
 input[name=submit]
 {
-    padding: 10px;
-    width: 200px;
-    height: 50px;
-    font-size: 36px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    font-size: 32px;
 }
