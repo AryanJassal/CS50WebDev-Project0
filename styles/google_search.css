@@ -18,7 +18,7 @@
 }
 
 #other_pages {
-  padding: 20px;
+  padding-top: 100px;
   height: 200px;
 }
 
@@ -63,9 +63,27 @@ input:focus, button:focus {
   background: whitesmoke;
 }
 
+.button:hover {
+  background-color: royalblue;
+  color: white;
+}
+
 .homepage {
   width: 100%;
   position: fixed;
+}
+
+.button {
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: lightgray;
+  transition: background-color 150ms linear;
+  color: black;
 }
 
 /*# sourceMappingURL=google_search.css.map */
