@@ -3,17 +3,13 @@
   height: 300px;
 }
 
-body {
-  background-color: black;
-}
-
 #not_google {
-  padding-top: 100px;
+  padding-top: 175px;
   display: block;
-  width: 40%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 #search_bar {
@@ -26,14 +22,18 @@ body {
   height: 200px;
 }
 
+body {
+  background-color: black;
+}
+
 form {
   padding-left: 20%;
   padding-right: 20%;
 }
 
-input[name=q] {
+input {
   border-radius: 50px;
-  /*border: 2px solid blue;*/
+  border: 2px solid black;
   padding-left: 30px;
   padding-right: 20px;
   width: 800px;
@@ -41,23 +41,31 @@ input[name=q] {
   font-size: 24px;
 }
 
-input:focus[name=q] {
+input:focus, button:focus {
   outline: none;
 }
 
-input[name=submit] {
+.searchButton {
   background-color: white;
   border-radius: 50px;
-  text-align: center;
-  width: 100px;
+  border: 2px solid black;
+  color: royalblue;
+  width: 70px;
   height: 60px;
+  cursor: pointer;
   font-size: 32px;
+  text-align: center;
   vertical-align: bottom;
   transition: background-color 100ms linear;
 }
 
-input:hover[name=submit] {
-  background: lightskyblue;
+.searchButton:hover {
+  background: whitesmoke;
+}
+
+.homepage {
+  width: 100%;
+  position: fixed;
 }
 
 /*# sourceMappingURL=google_search.css.map */

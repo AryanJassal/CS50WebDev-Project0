@@ -3,19 +3,22 @@
     <head>
         <title>Basic Google Searching</title>
         <link rel="stylesheet" href="styles/google_search.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div id="logo">
-            <img src="not_google.png" alt="Not Google" id="not_google">
-        </div>
-        <div id="search_bar">
-            <form action="https://www.google.com/search" autocomplete="off">
-                <input type="text" placeholder="Search Google..." name="q">
-                <input type="submit" value="Go!" name="submit">
-            </form>
-        </div>
-        <div id="other_pages">
-            
+        <div class="homepage">
+            <div id="logo">
+                <img src="not_google.png" alt="Not Google" id="not_google">
+            </div>
+            <div id="search_bar">
+                <form method="get" action="https://www.google.com/search" autocomplete="off">
+                    <input type="text" placeholder="Search Google... or not..." name="q">
+                    <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div id="other_pages">
+                
+            </div>
         </div>
     </body>
 </html>
