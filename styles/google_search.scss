@@ -2,9 +2,23 @@ $curved_searchbar: 50px;
 
 #logo
 {
-    background-color: orange;
     padding: 20px;
     height: 300px;
+}
+
+body
+{
+    background-color: black;
+}
+
+#not_google
+{
+    padding-top: 100px;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .9;
 }
 
 #search_bar
@@ -15,7 +29,6 @@ $curved_searchbar: 50px;
 
 #other_pages
 {
-    background-color: burlywood;
     padding: 20px;
     height: 200px;
 }
@@ -44,11 +57,14 @@ input:focus[name=q]
 
 input[name=submit]
 {
-    border-radius: 10px;
+    background-color: white;
+    border-radius: $curved_searchbar;
     text-align: center;
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 60px;
     font-size: 32px;
+    vertical-align: bottom;
+    transition: background-color 100ms linear;
 }
 
 input:hover[name=submit]
