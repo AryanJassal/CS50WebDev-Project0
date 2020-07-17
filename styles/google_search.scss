@@ -18,14 +18,18 @@ $curve: 50px;
 
 .search_bar
 {
-    height: 60px;
-    max-height: 60px;
+    //height: 360px;
+    height: auto;
+    padding: 20px;
+    // background-color: red;
 }
 
 .other_pages
 {
-    padding-top: 100px;
+    padding-top: 70px;
+    margin-right: 500px;
     height: 200px;
+    display: inline-flexbox;
 }
 
 .searchButton
@@ -48,24 +52,66 @@ $curve: 50px;
     background: whitesmoke;
 }
 
-.button
+.button_google_image, .button_google_advanced
 {
     height: 50px;
-    width: 300px;
+    width: 350px;
     text-align: center;
     font-size: 22px;
     border: none;
     cursor: pointer;
     border-radius: $curve;
-    background-color: lightgray;
     transition: background-color 150ms linear;
+}
+
+.button_google_image
+{
+    
+    background-color: lightgray;
     color: black
 }
 
-.button:hover
+.button_google_advanced
 {
-    background-color: royalblue;
+    background-color: lightgray;
+    color: black
+}
+
+.button_google_image:hover
+{
+    background-color: yellowgreen;
     color: white;
+}
+
+.button_google_advanced:hover
+{
+    background-color: lightcoral;
+    color: white;
+}
+
+.advanced_options > input
+{
+    margin: 5px;
+}
+
+.search_box
+{
+    display: block;
+    margin: 5px;
+}
+
+.google_image_search
+{
+    width: 10%;
+    float: left;
+    padding-left: 400px;
+}
+
+.google_advanced_search
+{
+    width: 15%;
+    float: right;
+    padding-left: 0;
 }
 
 body

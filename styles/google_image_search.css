@@ -13,13 +13,15 @@
 }
 
 .search_bar {
-  height: 60px;
-  max-height: 60px;
+  height: auto;
+  padding: 20px;
 }
 
 .other_pages {
-  padding-top: 100px;
+  padding-top: 70px;
+  margin-right: 500px;
   height: 200px;
+  display: inline-flexbox;
 }
 
 .searchButton {
@@ -40,22 +42,56 @@
   background: whitesmoke;
 }
 
-.button {
+.button_google_basic, .button_google_advanced {
   height: 50px;
-  width: 300px;
+  width: 350px;
   text-align: center;
   font-size: 22px;
   border: none;
   cursor: pointer;
   border-radius: 50px;
-  background-color: lightgray;
   transition: background-color 150ms linear;
+}
+
+.button_google_basic {
+  background-color: lightgray;
   color: black;
 }
 
-.button:hover {
+.button_google_advanced {
+  background-color: lightgray;
+  color: black;
+}
+
+.button_google_basic:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.button_google_advanced:hover {
   background-color: lightcoral;
   color: white;
+}
+
+.advanced_options > input {
+  margin: 5px;
+}
+
+.search_box {
+  display: block;
+  margin: 5px;
+}
+
+.google_search {
+  width: 10%;
+  float: left;
+  padding-left: 400px;
+}
+
+.google_advanced_search {
+  width: 15%;
+  float: right;
+  padding-left: 0;
 }
 
 body {

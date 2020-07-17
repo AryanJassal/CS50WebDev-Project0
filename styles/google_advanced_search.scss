@@ -52,7 +52,7 @@ $curve: 50px;
     background: whitesmoke;
 }
 
-.button
+.button_google_basic, .button_google_image
 {
     height: 50px;
     width: 350px;
@@ -61,14 +61,31 @@ $curve: 50px;
     border: none;
     cursor: pointer;
     border-radius: $curve;
-    background-color: lightgray;
     transition: background-color 150ms linear;
+}
+
+.button_google_basic
+{
+    
+    background-color: lightgray;
     color: black
 }
 
-.button:hover
+.button_google_image
 {
-    background-color: lightcoral;
+    background-color: lightgray;
+    color: black
+}
+
+.button_google_basic:hover
+{
+    background-color: royalblue;
+    color: white;
+}
+
+.button_google_image:hover
+{
+    background-color: yellowgreen;
     color: white;
 }
 
@@ -85,16 +102,16 @@ $curve: 50px;
 
 .google_search
 {
-    width: 50px;
+    width: 10%;
     float: left;
-    //margin-right: $button_margin;
+    padding-left: 400px;
 }
 
-.google_advanced_search
+.google_image_search
 {
-    width: 50px;
+    width: 15%;
     float: right;
-    //padding-right: 50px;
+    padding-left: 0;
 }
 
 body
