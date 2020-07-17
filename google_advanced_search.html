@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search</title>
+        <link rel="stylesheet" href="styles/google_search.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="homepage">
+            <div id="logo">
+                <img src="not_google.png" alt="Not Google" id="not_google">
+            </div>
+            <div id="search_bar">
+                <form method="get" action="https://www.google.com/images" autocomplete="off">
+                    <input type="text" placeholder="Search Google Images... or not..." name="q">
+                    <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div id="other_pages">
+                <form action="google_search.html">
+                    <button type="submit" id="not_google_search" class="button">Not Google Search</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
