@@ -1,0 +1,104 @@
+$curve: 50px;
+
+#logo
+{
+    padding: 20px;
+    height: 300px;
+}
+
+#not_google
+{
+    padding-top: 175px;
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
+#search_bar
+{
+    height: 60px;
+    max-height: 60px;
+}
+
+#other_pages
+{
+    padding-top: 100px;
+    height: 200px;
+}
+
+body
+{
+    background-color: black;
+}
+
+
+form
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+input
+{
+    border-radius: $curve;
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 800px;
+    height: 55px;
+    font-size: 24px;
+}
+
+input:focus, button:focus
+{
+    outline: none;
+}
+
+.searchButton
+{
+    background-color: white;
+    border-radius: $curve;
+    border: 2px solid black;
+    color: royalblue;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: bottom;
+    transition: background-color 100ms linear;
+}
+
+.searchButton:hover
+{
+    background: whitesmoke;
+}
+
+.button:hover
+{
+    background-color: royalblue;
+    color: white;
+}
+
+.homepage
+{
+    width: 100%;
+    position: fixed;
+}
+
+// #not_google_image_search
+.button
+{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: $curve;
+    background-color: lightgray;
+    transition: background-color 150ms linear;
+    color: black
+}
