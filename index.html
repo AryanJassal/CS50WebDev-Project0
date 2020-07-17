@@ -1,12 +1,15 @@
 <html>
     <head lang="en">
-        <title>Not Google Search</title>
+        <title>Google</title>
         <link rel="stylesheet" href="styles/search_basic.css">
+        <link rel="icon" href="google-favicon.png">
     </head>
     <body>
         <div style="height: 100px">
             <div class="_div-links">
-                <a title="Visit Google Images Search" id="google-image-search" href="search_image.html">Google Image Search</a>
+                <a title="Visit Google Image Search" class="other-pages" href="search_image.html">Google Image Search</a>
+                <br>
+                <a title="Visit Google Advanced Search" class="other-pages" href="search_advanced.html">Google Advanced Search</a>
             </div>
         </div>
 
@@ -25,11 +28,21 @@
 
                 <br>
 
-                <label id="_label-search-button">
-                    <button type="submit" class="search-button">Google Search</button>
-                </label>
+                <div>
+                    <label id="_label-search-button">
+                        <button type="submit" class="button" name="btnK">Google Search</button>
+                        <div class="seperator-button"></div>
+                        <button type="submit" class="button" name="btnI">I'm Feeling Lucky</button>
+                    </label>
+                </div>
             </form>
 
+        </div>
+
+        <div class="seperator-footer"></div>
+
+        <div class="google-permissions">
+            ©2018 Google LLC All rights reserved. Google and the Google logo are registered trademarks of Google LLC.
         </div>
     </body>
 </html>

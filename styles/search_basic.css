@@ -9,15 +9,35 @@ label {
   margin-right: auto;
 }
 
+.other-pages {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.google-permissions {
+  width: 100%;
+  height: 25px;
+  background-color: lightgrey;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.seperator-footer {
+  display: inline-block;
+  height: 295px;
+  width: auto;
+}
+
 ._div-logo {
   height: 200px;
 }
 
 ._div-links {
   height: 100px;
-  width: 200px;
+  width: 250px;
   float: right;
-  background-color: aqua;
+  text-align: right;
 }
 
 ._div-search {
@@ -34,7 +54,8 @@ label {
   width: 100%;
   min-width: 250px;
   height: 40px;
-  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 18px;
   border: 1px solid lightgray;
 }
@@ -47,10 +68,11 @@ label {
   margin-top: 10px;
 }
 
-.search-button {
-  width: 150px;
+.button {
+  outline: none;
+  width: auto;
   height: 35px;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   font-size: 16px;
   border: none;
@@ -60,12 +82,19 @@ label {
   cursor: pointer;
 }
 
-.search-button:hover {
+.button:hover {
+  outline: none;
   border: 1px solid lightgray;
 }
 
-.search-button:focus {
+.button:focus {
   border: 1px solid blue;
+}
+
+.seperator-button {
+  display: inline-block;
+  height: auto;
+  width: 5px;
 }
 
 input:focus {
