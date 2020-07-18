@@ -9,7 +9,7 @@
             <img src="google-logo.png" alt="Google Logo" id="google-logo">
 
             <div class="_div-links">
-
+                <a href="index.html" title="Go back to Google Search" class="other-pages">Go Back</a>
             </div>
 
         </div>
@@ -49,13 +49,40 @@
             </div>
 
             <div class="_div-form">
-                
+
+                <form action="https://www.google.com/search" autocomplete="off">
+                    
+                    <input class="advanced-options" name="as_q">
+                    <br>
+                    <input class="advanced-options" name="as_epq">
+                    <br>
+                    <input class="advanced-options" name="as_oq">
+                    <br>
+                    <input class="advanced-options" name="as_eq">
+                    <br>
+                    <button type="submit" class="submit-button">Advanced Search</button>
+
+                </form>
+
             </div>
 
         </div>
 
         <div class="_div-search-bar-way">
 
+            <label class="_lbl-search-bar-way">To do this in the search box.</label>
+            <br>
+            <p class="search-bar-instructions-1">Type the important words: <code>tri-colour rat terrier</code></p>
+            <p class="search-bar-instructions-2">Put exact words in quotes: <code>"rat terrier"</code></p>
+            <p class="search-bar-instructions-2">Type <code>OR</code> between all the words you want: <code>miniature OR standard</code></p>
+            <p class="search-bar-instructions-2">Put a minus sign just before words that you don't want: <code>-rodent, -"Jack Russel"</code></p>
+
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="_div-google-permissions">
+            ©2018 Google LLC All rights reserved. Google and the Google logo are registered trademarks of Google LLC.
         </div>
     </body>
 </html>

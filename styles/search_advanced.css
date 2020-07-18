@@ -9,7 +9,6 @@
   height: 60px;
   float: right;
   text-align: right;
-  background-color: magenta;
 }
 
 ._div-advanced-search {
@@ -25,25 +24,75 @@
 }
 
 ._div-search-box {
+  float: left;
   padding-left: 30px;
   padding-top: 35px;
-  background-color: burlywood;
+  height: 300px;
+  width: 750px;
+  border-bottom: 1px solid lightgray;
+}
+
+._div-form {
+  float: right;
+}
+
+.advanced-options {
+  outline: none;
+  width: 550px;
+  height: 30px;
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  box-shadow: inset 0 0 1px lightgray;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.advanced-options:focus {
+  outline: 1px solid royalblue;
+}
+
+._div-label {
+  float: left;
+  clear: left;
+  padding-top: 10px;
+  width: 200px;
+}
+
+._div-search-bar-way {
+  padding-top: 35px;
+  float: right;
+  width: 1120px;
   height: 300px;
   border-bottom: 1px solid lightgray;
 }
 
-._div-label {
-  display: block;
-  padding-top: 10px;
-  width: 200px;
-  background-color: lightblue;
+._lbl-search-bar-way {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+
+.search-bar-instructions-1, .search-bar-instructions-2 {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.search-bar-instructions-1 {
+  margin-top: 23px;
+}
+
+.search-bar-instructions-2 {
+  margin-top: 31px;
 }
 
 ._div-label-containers {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 ._lbl-find-pages {
+  float: left;
   font-size: 16px;
   font-family: sans-serif;
 }
@@ -51,6 +100,39 @@
 ._lbl-search {
   font-size: 12px;
   font-family: sans-serif;
+}
+
+._div-google-permissions {
+  margin-top: 805px;
+  width: 100%;
+  height: 16px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.other-pages {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.submit-button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  float: right;
+  margin-top: 30px;
+  background-color: #5e7ddb;
+  color: white;
+}
+
+.submit-button:focus {
+  outline: 1px solid white;
+}
+
+.submit-button:hover {
+  background-color: royalblue;
 }
 
 #google-logo {
