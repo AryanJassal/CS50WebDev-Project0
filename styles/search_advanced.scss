@@ -32,7 +32,7 @@
     padding-left: 30px;
     padding-top: 35px;
     height: 300px;
-    width: 750px;
+    width: 39.5%;
     border-bottom: 1px solid lightgray;
 }
 
@@ -56,7 +56,6 @@
 .advanced-options:focus
 {
     outline: 1px solid royalblue;
-    //border: 1px solid royalblue;
 }
 
 ._div-label
@@ -64,14 +63,14 @@
     float: left;
     clear: left;
     padding-top: 10px;
-    width: 200px;
+    width: 20%;
 }
 
 ._div-search-bar-way
 {
     padding-top: 35px;
     float: right;
-    width: 1120px;
+    width: 58.5%;
     height: 300px;
     border-bottom: 1px solid lightgray;
 }
