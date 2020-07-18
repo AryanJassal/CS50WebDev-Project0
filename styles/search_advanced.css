@@ -1,9 +1,59 @@
 ._div-logo {
   width: auto;
   height: 60px;
-  background-color: aqua;
+  background-color: #e6e6e6;
+}
+
+._div-links {
+  width: 200px;
+  height: 60px;
+  float: right;
+  text-align: right;
+  background-color: magenta;
+}
+
+._div-advanced-search {
+  width: auto;
+  height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #dc0000;
+  border-bottom: 1px solid lightgray;
+}
+
+._div-search-box {
+  padding-left: 30px;
+  padding-top: 35px;
+  background-color: burlywood;
+  height: 300px;
+  border-bottom: 1px solid lightgray;
+}
+
+._div-label {
+  display: block;
+  padding-top: 10px;
+  width: 200px;
+  background-color: lightblue;
+}
+
+._div-label-containers {
+  padding-top: 20px;
+}
+
+._lbl-find-pages {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+._lbl-search {
+  font-size: 12px;
+  font-family: sans-serif;
 }
 
 #google-logo {
-  height: 60px;
+  padding: 15px;
+  height: 30px;
 }
